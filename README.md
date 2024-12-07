@@ -21,8 +21,8 @@ A simple desktop application built using Python and Tkinter that allows users to
 To get started with the project, first clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/basic-file-explorer.git
-cd basic-file-explorer
+git clone https://github.com/Ohimoiza1205/File-Explorer-Application.git
+cd File-Explorer-Application
 ```
 
 ### Install Python and Tkinter
