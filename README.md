@@ -51,17 +51,17 @@ This will launch the Basic File Explorer GUI application.
 ### App Overview
 **File List**: A scrollable list displays all files and directories in the current directory.
 **Buttons**:
-- Open: Opens the selected .txt file in a new window.
-- Delete: Deletes the selected file from the current directory.
-- Error Handling: Includes error handling for invalid file types, empty inputs, and file permissions.
+- **Open**: Opens the selected .txt file in a new window.
+- **Delete**: Deletes the selected file from the current directory.
+- **Error Handling**: Includes error handling for invalid file types, empty inputs, and file permissions.
 
 **Code Structure**
-- ``file_explorer_app.py``: The main application script, containing the Tkinter interface and file management logic.
-- UI Components: Utilizes Tkinter widgets such as Listbox, Button, Scrollbar, and Text to build the GUI.
+- **``file_explorer_app.py``**: The main application script, containing the Tkinter interface and file management logic.
+- **UI Components**: Utilizes Tkinter widgets such as Listbox, Button, Scrollbar, and Text to build the GUI.
 
 **File Operations**:
-- Opening Files: Uses Python's built-in open() function to read .txt files.
-- Deleting Files: Uses os.remove() to delete files from the file system.
+- **Opening Files**: Uses Python's built-in open() function to read .txt files.
+- **Deleting Files**: Uses os.remove() to delete files from the file system.
 
 ### Improvements to Consider
 While the application is simple, I still aim to enhance it with additional features such as:
